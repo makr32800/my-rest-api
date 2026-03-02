@@ -1,5 +1,6 @@
 import json
 from flask import Flask, jsonify
+import os
 
 app = Flask(__name__)
 
@@ -19,6 +20,6 @@ def get_data():
         return jsonify({"error": str(e)}), 500
 
 if __name__ == '__main__':
-    # This starts the server
-    app.run(debug=True)
-    
+    # Use the port assigned by the cloud provider, or 5000 as a backup
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
