@@ -22,7 +22,7 @@
       },
       "totalAccounts": 6,
       "accounts": [
-        { "accountTypeDescription": "", "accountNumber": "68006011872" },
+        { "accountTypeDescription": "DEPOSIT", "accountNumber": "68006011872" },
         { "accountTypeDescription": "CREDITCARD", "accountNumber": "36100210923203" },
         { "accountTypeDescription": "CREDITCARD", "accountNumber": "377672008710866" },
         { "accountTypeDescription": "CREDITCARD", "accountNumber": "4004383745202091" },
