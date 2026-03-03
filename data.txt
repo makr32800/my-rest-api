@@ -25,7 +25,7 @@
         { "accountTypeDescription": "DEPOSIT", "accountNumber": "68006011872" },
         { "accountTypeDescription": "CREDITCARD", "accountNumber": "36100210923203" },
         { "accountTypeDescription": "CREDITCARD", "accountNumber": "377672008710866" },
-        { "accountTypeDescription": "", "accountNumber": "4004383745202091" },
+        { "accountTypeDescription": "CREDITCARD", "accountNumber": "4004383745202091" },
         { "accountTypeDescription": "CREDITCARD", "accountNumber": "5199630074173216" },
         { "accountTypeDescription": "CREDITCARD", "accountNumber": "6250351198655186" }
       ]
